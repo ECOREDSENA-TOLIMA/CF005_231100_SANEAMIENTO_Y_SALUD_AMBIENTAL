@@ -1,15 +1,45 @@
 .banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+  &-5
+    width: 300px
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
+    top: 10%
+    right: 40%
+  &-4
+    width: 75px
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 70%
+    left: 70%
+  &-1
+    width: 100px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 55%
+    right: 80%
+  &-2
+    width: 80px
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 10%
+  &-3
+    width: 450px
+    animation: rotation 2s infinite linear
+    position: absolute
+    bottom: 15%
+    left: 1%
+    z-index: -1
 
+.banner-principal__img
+  z-index: 1
+
+
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
 
 @keyframes float1
   0%
@@ -17,3 +47,246 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.8)
+
+.banner-principal__row
+  overflow: hidden
+  height: 450px
+
+@media (min-width: 1440px)
+  .banner-principal__img
+    width: 35%
+
+.bloque-derecha
+  .bloque-texto-g__img
+    left: auto
+    right: 0
+    width: 39%
+  .bloque-texto-g
+    justify-content: start
+  .bloque-texto-g__texto--border
+    position: relative
+    width: 67%
+  .bloque-texto-g__texto
+    width: 100%
+
+.cajon.color-secundario
+  background-color: #fffdea
+
+.bloque-texto-b.color-secundario:before 
+  background-color: #fffdea
+
+.lista-ol .lista-ul--color li 
+  display: block
+
+.banner-principal__componente
+  h1
+    color: #000000
+.banner-principal__descripcion
+  p
+    color: #000000
+  
+.text-decor
+  background: #1B3F5E
+  border-radius: 0px 20px 0px 20px
+  width: 40%
+  font-weight: bold
+
+.text-vineta
+  color: #FFFFFF !important
+
+.tarjeta-gris
+  background-color: #E6E7EE
+
+.tarjeta-verde 
+  background-color: #EEFFDE
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #DBF9BD
+
+.pt-0
+  background-color: #dbf9bd
+
+.tabs-a__content-item--active 
+  background-color: #dbf9bd
+  border-radius: 20px
+
+.tabs-a__tab
+  background-color: $color-adicional-1
+
+.lista-ol--cuadro__vineta
+    background-color: #3B5620
+.tarj-color
+  background: linear-gradient(180deg, #EFFCFF 50%, rgb(250, 255, 255) 100%)
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #FFFAD0
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgb(255, 250, 208) 0%, #DBF9BD 100%)
+      h4, p
+        color: black 
+      .bottomCircle
+        &::before
+          background-color: #FFFAD0
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+  img
+    width: 50%
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #632059
+  color: white
+
+.clstabla table
+  min-width: 1060px
+
+.clstitulo
+  max-width: 55%
+  margin-top: -15px
+.tith h2
+  color:#264100
+
+.tarjeta-verdeti
+  background-color:#C1E29A
+  max-height: 50px
+
+.slyder__btn
+  background-color: #7816c2
+  color:#FFFFFF
+
+
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+  .tituhoja
+    height: 50px
+
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+  
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #DFEAF1
+
+.acordion__accion__btn--b
+  background-color: #7816c2 !important
+  border-color: #7816c2 !important
+
+.fas
+  color: white
+
+.acordion__activo
+  background-color: #EEFFDE !important
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #7816C2
+  color: white

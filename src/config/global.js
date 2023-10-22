@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Muestreo de la calidad de agua',
+    descripcionCurso:
+      'El presente componente formativo contiene los temas necesarios para que el aprendiz pueda reconocer el proceso para llevar a cabo el muestreo de calidad de agua, los materiales que debe utilizar, los equipos, los procedimientos, el área de muestreo para finalmente elaborar el informe de resultados.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,13 +32,24 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Alistamiento de materiales y equipos de muestreo de calidad de agua',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Calibración de equipos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Materiales',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Elementos de protección personal',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +57,48 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Preparación del área de muestreo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Técnicas de adecuación del área',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Técnicas de aseo e higienización',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Toma de muestras de agua y embalaje',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Tipos de muestreo',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Formatos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Tipos de embalaje',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Informe de operaciones de muestreo de calidad de agua',
         desarrolloContenidos: true,
       },
     ],
@@ -85,6 +132,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_005_231100.zip',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -97,32 +149,92 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Toma de muestras de agua y embalaje',
+      referencia:
+        'Huella verde (2018, 2 de noviembre). Monitoreo de la calidad del agua. [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Z_yhTzWeWT4',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Calibración de equipos ',
+      referencia:
+        'Hanna Instruments México (2018, 22 de agosto). Calibración del medidor HI98194. [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Wp-ci9Arynk',
+    },
+    {
+      tema: '1.2 Materiales ',
+      referencia:
+        'Hanna Instruments Colombia (2019, 24 de enero). Vídeo Tutorial HI 98193 Medidor portátil Impermeable de Oxígeno Disuelto y DBO. [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=KDRwO0q6kPI',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Cadena de custodia:',
+      significado:
+        'proceso de control y seguimiento para garantizar y proteger la calidad de la muestra de su contaminación o destrucción desde que se toma la muestra hasta el reporte de los resultados en el laboratorio. ',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Calibración: ',
+      significado:
+        'proceso que compara y documenta la medición de un equipo respecto a una referencia estándar. ',
+    },
+    {
+      termino: 'Certificado de calibración:',
+      significado:
+        'documento que contiene los resultados de la calibración de un instrumento. ',
+    },
+    {
+      termino: 'Embalaje',
+      significado:
+        'proceso de almacenar, agrupar, envolver y transportar de manera temporal la muestra recolectada en campo en óptimas condiciones. ',
+    },
+    {
+      termino: 'Estación de muestreo:',
+      significado:
+        'lugar que por sus características fue definido previamente para recolectar la muestra de agua. ',
+    },
+    {
+      termino: 'Monitoreo:',
+      significado:
+        'proceso diseñado para muestrear y analizar parámetros fisicoquímicos y biológicos, para luego realizar un seguimiento periódico del proceso particular, para guiar las decisiones de gestión. ',
+    },
+    {
+      termino: 'Muestreo:',
+      significado:
+        'proceso de selección de una parte de algo que se considera representativo de un todo, para conocer y determinar las características del grupo al que pertenece. ',
+    },
+    {
+      termino: 'Parámetro:',
+      significado:
+        'variables in situ, variables fisicoquímicas e hidrobiológicas que hacen parte de la muestra de agua y que se analizan según los objetivos del estudio. ',
+    },
+    {
+      termino: 'Sonda multiparámetro:',
+      significado:
+        'dispositivo electrónico que se utiliza para realizar las mediciones de los parámetros en campo, arrojando el resultado inmediato como el oxígeno disuelto, temperatura, el potencial de Hidrógeno (pH), la conductividad. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'IDEAM. (2018). Instituto de Hidrología, Meteorología y Estudios Ambientales. Protocolo de Monitoreo y seguimiento del Agua: ',
+      link:
+        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/021172/Protocoloparaelmonitoreoyseguimientodelagua.pdf',
+    },
+    {
+      referencia:
+        'INS. (2011). Instituto Nacional de Salud. Obtenido de Manual de instrucciones para la toma, preservación y transporte de muestras de agua de consumo humano para análisis de laboratorio: ',
+      link:
+        'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf',
+    },
+    {
+      referencia:
+        'ISO. (2017). Organización Internacional para la Estandarización. Requisitos generales para la competencia de los laboratorios de ensayo y calibración (ISO/IEC 17025:2017): ',
+      link:
+        'http://colbiosa.com.ar/wp-content/uploads/2019/10/UNE-EN-ISO-IEC-17025-2017-2.pdf',
     },
   ],
   creditos: [
