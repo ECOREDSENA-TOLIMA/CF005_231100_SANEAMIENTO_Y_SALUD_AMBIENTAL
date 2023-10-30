@@ -98,7 +98,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/temas/tema2/img5.svg', alt='Imagen decorativa')
-      .tarjeta.color-primario.p-4(titulo="Vía de evaluación")(style="background-color:#E7FFD1")
+      .tarjeta.color-primario.p-4(titulo="Vía de evacuación")(style="background-color:#E7FFD1")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
             p Es fundamental garantizar una vía de evacuación eficiente en el área de muestreo para asegurar la seguridad del personal en caso de emergencia. Esto implica identificar y establecer rutas claras y seguras que permitan a los trabajadores abandonar rápidamente el área en situaciones inesperadas. La planificación y la comunicación de estos procedimientos de evacuación son esenciales para que todos los miembros del equipo estén informados y sepan cómo actuar en caso de emergencia.

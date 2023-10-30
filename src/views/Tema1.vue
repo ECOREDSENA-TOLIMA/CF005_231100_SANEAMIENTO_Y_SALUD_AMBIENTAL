@@ -136,7 +136,7 @@
                 img(src='@/assets/curso/temas/tema1/img9.png', alt='Imagen decorativa')
           .col-md-6.mb-4.mb-md-0            
             p Los equipos de medición o sondas multiparámetros son dispositivos electrónicos utilizados para realizar mediciones de diversos parámetros en campo. Estos equipos proporcionan resultados inmediatos de parámetros como el oxígeno disuelto, la temperatura, el pH (potencial de hidrógeno) y la conductividad. Son herramientas valiosas para el monitoreo en tiempo real de la calidad del agua y facilitan la toma de decisiones en situaciones de muestreo en el campo. Las imágenes muestran ejemplos de este tipo de equipos.
-      .py-4.py-md-5(titulo="Equipos de medición")
+      .py-4.py-md-5(titulo="Elementos de protección")
         .row
           .col-md-6
               figure

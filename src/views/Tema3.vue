@@ -48,6 +48,10 @@
           figure
             img(src='@/assets/curso/temas/tema3/img4.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Una vez tomados los datos in situ, se procede a la toma de las muestras que serán enviadas al laboratorio, sumergiendo un balde limpio para obtener la muestra de agua, o tomar cada envase, enjuagar los recipientes con el agua del sitio de muestreo y llenarlos directamente del cuerpo de agua, tapar los recipientes asegurando que no haya fugas. Es importante tener en cuenta que la etiqueta de cada envase debe tener consignados los datos correspondientes, almacenar los frascos en las neveras portátiles, verificando que se realizó la preservación de la muestra (aplicación de reactivo según el parámetro) o adición de hielo, sellar las neveras (embalaje) y enviar las muestras al laboratorio junto con el formato de la cadena de custodia.
+        p En el laboratorio se analizarán los parámetros fisicoquímicos según su naturaleza de la siguiente manera: 
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img5.png', alt='Imagen decorativa')
@@ -133,7 +137,9 @@
                 td Peces
                 td.text-center X
                 td.text-center X
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p A continuación, se puede conocer a detalle cada de las comunidades hidrobiológicas.
     .tarjeta.tarjeta--amarilla.p-4.mb-4(style="background-color:#EEFFDE")
       SlyderA(tipo="b")(data-aos="flip-right")
         .row
@@ -410,48 +416,49 @@
           span  #[i  Formato de parámetros in situ]
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        table(border=1)
-          thead(style="background-color:#FFAE7E;")
-            tr
-              th.text-center(colspan=5) Formato parámetros #[i In situ]             
-          tbody
-            tr
-              td Proyecto:
-              td(colspan=4)
-            tr
-              td Departamento:
-              td 
-              td Municipio:
-              td(colspan=2)
-            tr
-              td Estación de muestreo:
-              td(colspan=4)
-            tr
-              td Fecha:
-              td(colspan=2)
-              td Hora:
-              td
-            tr
-              td Coordenadas:
-              td(colspan=2) N:
-              td W:
-              td
-            tr
-              td Temperatura (°C):
-              td pH:
-              td Conductividad (mS/cm):
-              td Oxígeno disuelto (mg/L):
-              td Saturación de oxígeno (%):
-            tr
-              td
-              td
-              td
-              td
-              td
-            tr
-              td(colspan=5) Observaciones: (factores climáticos,intervención antrópica)
-            tr
-              td(colspan=5) Responsable:
+        .tabla-a.color-acento-botones.mb-5        
+          table(border=1)
+            thead(style="background-color:#FFAE7E;")
+              tr
+                th.text-center(colspan=5) Formato parámetros #[i In situ]             
+            tbody
+              tr
+                td Proyecto:
+                td(colspan=4)
+              tr
+                td Departamento:
+                td 
+                td Municipio:
+                td(colspan=2)
+              tr
+                td Estación de muestreo:
+                td(colspan=4)
+              tr
+                td Fecha:
+                td(colspan=2)
+                td Hora:
+                td
+              tr
+                td Coordenadas:
+                td(colspan=2) N:
+                td W:
+                td
+              tr
+                td Temperatura (°C):
+                td pH:
+                td Conductividad (mS/cm):
+                td Oxígeno disuelto (mg/L):
+                td Saturación de oxígeno (%):
+              tr
+                td
+                td
+                td
+                td
+                td
+              tr
+                td(colspan=5) Observaciones: (factores climáticos,intervención antrópica)
+              tr
+                td(colspan=5) Responsable:
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img23.png')})`}"
@@ -463,7 +470,7 @@
       .col-lg-12.col-md-4.mb-4.mb-md-0
         .titulo-sexto.color-acento-contenido.offset-1
           h5 Tabla 3.
-          span  #[i  Formato de parámetros in situ]
+          span  #[i  Formato de cadena de custodia matriz agua]
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         table(border=1)

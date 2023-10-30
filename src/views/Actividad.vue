@@ -10,8 +10,8 @@
             img(src="@/assets/template/opcion-multiple.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Aclarando conceptos. 
-        p.mb-4 #[b Objetivo] Afianzar los conocimientos frente al proceso de muestreo de calidad de agua con el fin de aplicarlos en un contexto real según los requerimientos identificados. 
+          h2 Aclarando conceptos
+        p.mb-4 #[b Objetivo:] Afianzar los conocimientos frente al proceso de muestreo de calidad de agua con el fin de aplicarlos en un contexto real según los requerimientos identificados. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
