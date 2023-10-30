@@ -172,17 +172,17 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Cadena de custodia:',
+      termino: 'Cadena de custodia',
       significado:
         'proceso de control y seguimiento para garantizar y proteger la calidad de la muestra de su contaminación o destrucción desde que se toma la muestra hasta el reporte de los resultados en el laboratorio. ',
     },
     {
-      termino: 'Calibración: ',
+      termino: 'Calibración',
       significado:
         'proceso que compara y documenta la medición de un equipo respecto a una referencia estándar. ',
     },
     {
-      termino: 'Certificado de calibración:',
+      termino: 'Certificado de calibración',
       significado:
         'documento que contiene los resultados de la calibración de un instrumento. ',
     },
@@ -192,27 +192,27 @@ export default {
         'proceso de almacenar, agrupar, envolver y transportar de manera temporal la muestra recolectada en campo en óptimas condiciones. ',
     },
     {
-      termino: 'Estación de muestreo:',
+      termino: 'Estación de muestreo',
       significado:
         'lugar que por sus características fue definido previamente para recolectar la muestra de agua. ',
     },
     {
-      termino: 'Monitoreo:',
+      termino: 'Monitoreo',
       significado:
         'proceso diseñado para muestrear y analizar parámetros fisicoquímicos y biológicos, para luego realizar un seguimiento periódico del proceso particular, para guiar las decisiones de gestión. ',
     },
     {
-      termino: 'Muestreo:',
+      termino: 'Muestreo',
       significado:
         'proceso de selección de una parte de algo que se considera representativo de un todo, para conocer y determinar las características del grupo al que pertenece. ',
     },
     {
-      termino: 'Parámetro:',
+      termino: 'Parámetro',
       significado:
         'variables in situ, variables fisicoquímicas e hidrobiológicas que hacen parte de la muestra de agua y que se analizan según los objetivos del estudio. ',
     },
     {
-      termino: 'Sonda multiparámetro:',
+      termino: 'Sonda multiparámetro',
       significado:
         'dispositivo electrónico que se utiliza para realizar las mediciones de los parámetros en campo, arrojando el resultado inmediato como el oxígeno disuelto, temperatura, el potencial de Hidrógeno (pH), la conductividad. ',
     },
