@@ -205,7 +205,7 @@
               img(src='@/assets/curso/temas/tema3/img11.png', alt='Peces')
 
     .row
-      .col-lg-7
+      .col-lg-9
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
@@ -275,7 +275,7 @@
           img(src='@/assets/curso/temas/tema3/img13.png', alt='Imagen decorativa')
 
     .row
-      .col-lg-7
+      .col-lg-9
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/imgt.svg' alt='AvatarTop')(style="max-width: 55%;margin-top: -15px;")
