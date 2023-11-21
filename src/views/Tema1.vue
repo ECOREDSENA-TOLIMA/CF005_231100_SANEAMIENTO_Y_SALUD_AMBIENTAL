@@ -55,7 +55,7 @@
           .tarjeta.color-secundario.p-3(x="61.5%" y="77.8%" numero="+")(style="background-color:#FFFFFF")
             p Elementos adicionales en caso de pérdida, ruptura, daño o contaminación, que puede ocurrir durante el muestreo.
           .tarjeta.color-secundario.p-3(x="83.5%" y="77.8%" numero="+")(style="background-color:#FFFFFF")
-            p Otros elementos como GPS, mapas, cámara fotográfica, cintas, marcadores, lapicero y bolsas ziploc.
+            p Otros elementos como GPS, mapas, cámara fotográfica, cintas, marcadores, lapicero y bolsas #[i ziploc].
           .tarjeta.color-secundario.p-3(x="19.5%" y="33.5%" numero="+")(style="background-color:#FFFFFF")
             p Las muestras se rotularán con  etiqueta indicando: número/nombre de la muestra, fecha y hora.
       

@@ -100,11 +100,11 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+        .titulo-sexto.color-acento-contenido.offset-0
           h5 Tabla 1.
           span  #[i  Comunidades hidrobiológicas objeto de estudio en los muestreos de calidad de agua]
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-12.col-sm-12.col-md-12
         .tabla-b.color-acento-botones.mb-5        
           table(border=1)
             thead(style="background-color:#FFAE7E;")
@@ -140,7 +140,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p A continuación, se puede conocer a detalle cada de las comunidades hidrobiológicas.
-    .tarjeta.tarjeta--amarilla.p-4.mb-4(style="background-color:#EEFFDE")
+    .tarjeta.tarjeta--amarilla.p-4.mb-5(style="background-color:#EEFFDE")
       SlyderA(tipo="b")(data-aos="flip-right")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -171,7 +171,7 @@
                   
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img8.png', alt='Fitoplancton')
+              img(src='@/assets/curso/temas/tema3/img8.png', alt='Perifiton')
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Macroinvertebrados acuáticos
@@ -181,14 +181,14 @@
                   
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img9.png', alt='Fitoplancton')
+              img(src='@/assets/curso/temas/tema3/img9.png', alt='Macroinvertebrados acuáticos')
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Macrófitas
             .row.mb-5
               .col-sm.mb-5.mb-sm-0
                 p Son plantas que crecen en ambientes acuáticos, y su distribución puede variar según las condiciones del agua y el entorno. Son utilizadas como indicadores de la calidad del agua.
-                p Para muestrear macrófitas, se utiliza un cuadrante de 1m x 1m. Se determina el porcentaje de cobertura y se lista las especies presentes. Si no se pueden identificar en el campo, se colectan muestras para su análisis en laboratorio. Este proceso permite evaluar la diversidad y la presencia de macrófitas en un ecosistema acuático y, por ende, la calidad del agua en ese lugar.
+                p Para muestrear macrófitas, se utiliza un cuadrante de 1 m x 1 m. Se determina el porcentaje de cobertura y se lista las especies presentes. Si no se pueden identificar en el campo, se colectan muestras para su análisis en laboratorio. Este proceso permite evaluar la diversidad y la presencia de macrófitas en un ecosistema acuático y, por ende, la calidad del agua en ese lugar.
                   
           .col-md-6
             figure
