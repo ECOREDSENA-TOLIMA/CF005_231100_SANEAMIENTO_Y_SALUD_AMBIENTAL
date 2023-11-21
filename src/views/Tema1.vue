@@ -13,9 +13,13 @@
           .row.justify-content-center.align-items-center
             .col-lg-11
               p El alistamiento de equipos y materiales es un paso crítico en el proceso de muestreo de calidad de agua. Para garantizar el éxito de esta operación, es fundamental contar con una lista de chequeo que incluya todos los elementos necesarios para llevar a cabo el muestreo de manera efectiva y precisa.
-            .col-lg-1
+            .col-lg-1.desktop
               figure(data-aos="flip-right")
                 img(src="@/assets/curso/temas/tema1/img1.svg", alt="Imagen decorativa")
+            
+            .col-lg-1.movil
+              figure(data-aos="flip-right")                
+                img(src="@/assets/curso/temas/tema1/img1.svg", alt="Imagen decorativa")(style="max-width:50%;")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4
@@ -158,7 +162,38 @@
       .col-lg-12 
       p Los Elementos de Protección Individual (EPI) son esenciales para garantizar la seguridad de los trabajadores durante los trabajos en campo, proporcionando condiciones óptimas para llevar a cabo las actividades de muestreo de la calidad del agua de manera segura y protegida. A continuación, se especifican los materiales que se deben utilizar como EPI en estos trabajos:
 
-    SlyderB.color-acento-botones.mb-5.p-5(:datos="datosSlyderEjemplo")(style="background-color:#E7FFD1")
+    SlyderB.color-acento-botones.mb-5.p-5.desktop(:datos="datosSlyderEjemplo")(style="background-color:#E7FFD1")
+
+    .tarjeta.tarjeta--azul.p-4.mb-5.movil(style="background-color:#E7FFD1")      
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img11.png', alt='TImagen decorativa')
+          .col-md-6.mb-4.mb-md-0
+            h4 Protección general
+            p Los guantes, tapabocas, protector de oídos, casco, gafas, chaleco y las botas son los elementos transversales que se utilizan en todos los trabajos relacionados con el muestreo de la calidad del agua.                  
+        .row
+          .col-md-6.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img12.png', alt='TImagen decorativa')
+          .col-md-6.mb-4.mb-md-0
+            h4 Muestreo de aguas superficiales
+            p Se utilizan elementos de protección personal específicos, incluyen guantes de látex o de nitrilo para proteger las manos de posibles contaminantes presentes en el agua, un chaleco salvavidas para asegurar la flotabilidad y la seguridad en caso de estar cerca de cuerpos de agua, y un casco para proteger la cabeza en situaciones donde pueda haber riesgo de caídas u objetos que caigan desde altura. Estos elementos son fundamentales para minimizar los riesgos y garantizar la seguridad en el muestreo de aguas superficiales.
+        .row
+          .col-md-6.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img13.png', alt='TImagen decorativa')
+          .col-md-6.mb-4.mb-md-0
+            h4 Muestreo de agua potable
+            p Es esencial tomar medidas adicionales para garantizar la pureza y calidad de la muestra. Por lo tanto, se requiere que el operario utilice cofia, tapabocas y guantes de látex o nitrilo. Estos elementos de protección personal ayudan a prevenir la contaminación de la muestra por parte del operador, asegurando que no se introduzcan contaminantes externos durante el proceso de recolección. Esto es crucial para mantener la integridad de la muestra y obtener resultados precisos en los análisis posteriores.
+        .row
+          .col-md-6.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema1/img14.png', alt='TImagen decorativa')
+          .col-md-6.mb-4.mb-md-0
+            h4 Muestreo de agua residual
+            p Es fundamental utilizar equipos de protección personal adecuados para garantizar la seguridad del operador y prevenir la contaminación. Por lo tanto, se recomienda el uso de guantes, botas y un traje de protección. Estos elementos ayudan a proteger al operador de posibles exposiciones a sustancias nocivas presentes en las aguas residuales, minimizando así los riesgos para la salud y garantizando un manejo seguro durante el proceso de muestreo.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -196,7 +231,7 @@ export default {
       {
         titulo: 'Muestreo de agua residual',
         texto:
-          'Es fundamental utilizar equipos de protección personal adecuados para garantizar la seguridad del operador y prevenir la contaminación. Por lo tanto, se recomienda el uso de guantes, botas y un traje de protección. Estos elementos ayudan a proteger al operador de posibles exposiciones a sustancias nocivas presentes en las aguas residuales, minimizando así los riesgos para la salud y garantizando un manejo seguro durante el proceso de muestreo. ',
+          'Es fundamental utilizar equipos de protección personal adecuados para garantizar la seguridad del operador y prevenir la contaminación. Por lo tanto, se recomienda el uso de guantes, botas y un traje de protección. Estos elementos ayudan a proteger al operador de posibles exposiciones a sustancias nocivas presentes en las aguas residuales, minimizando así los riesgos para la salud y garantizando un manejo seguro durante el proceso de muestreo.',
         imagen: require('@/assets/curso/temas/tema1/img14.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

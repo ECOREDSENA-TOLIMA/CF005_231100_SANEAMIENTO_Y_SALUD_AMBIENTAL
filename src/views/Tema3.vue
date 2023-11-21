@@ -466,196 +466,197 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La cadena de custodia es un proceso crucial para garantizar la integridad y trazabilidad de las muestras de agua desde su recolección hasta la entrega de resultados en el laboratorio. Implica un control detallado de quién tiene posesión de las muestras en cada etapa del proceso. Se utiliza un formato de cadena de custodia que incluye información sobre el proyecto, el muestreador, las muestras y los responsables de custodia y transporte. Este registro se completa meticulosamente en cada cambio de responsabilidad, y todas las personas involucradas deben firmar y fechar dichos cambios. Esto asegura la calidad y confiabilidad de los resultados en el laboratorio. A continuación, se encuentra un ejemplo de un formato de cadena de custodia que puede utilizarse para documentar y mantener un registro de la posesión y manipulación de muestras desde el momento de su recolección hasta su entrega en el laboratorio:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-12.col-md-4.mb-4.mb-md-0
-        .titulo-sexto.color-acento-contenido.offset-1
+        .titulo-sexto.color-acento-contenido.offset-0
           h5 Tabla 3.
           span  #[i  Formato de cadena de custodia matriz agua]
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-2
       .col-lg-12
-        table(border=1)
-          thead(style="background-color:#FFAE7E;")
-            tr
-              th.text-center(colspan=11) Formato de cadena de custodia matriz agua             
-          tbody
-            tr
-              td Proyecto:
-              td(colspan=7)
-              td Fecha:
-              td(colspan="2")
-            tr
-              td(colspan=6) Departamento:
-              td(colspan=2) Municipio:
-              td(colspan=3)
-            tr
-              td(rowspan=2) Código laboratorio
-              td(rowspan=2) Código en campo
-              td(colspan=3) Tipo de muestra
-              td(rowspan=2) Fecha muestreo
-              td(rowspan=2) Sitio de muestreo
-              td(colspan=4) Tipo y cantidad de recipientes
-            tr
-              td Simple
-              td Compuestra
-              td Integrada
-              td Plástico (N° recipientes)
-              td Vidrio (N° recipientes)
-              td Bolsa plástica
-              td Otros
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td           
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr
-              td 
-                p.p-1
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td    
-              td
-            tr 
-              td(rowspan=2) ¿Refrigerada?
-              td SI
-              td(rowspan=2)(colspan=4) Responsable
-              td(rowspan=2) Total
-              td(rowspan=2)
-              td(rowspan=2)
-              td(rowspan=2)
-              td(rowspan=2)
-            tr
-              td NO
+        .tabla-a.clstabla.color-acento-botones.mb-0
+          table
+            thead(style="background-color:#FFAE7E;")
+              tr
+                th.text-center(colspan=11) Formato de cadena de custodia matriz agua             
+            tbody
+              tr
+                td Proyecto:
+                td(colspan=7)
+                td Fecha:
+                td(colspan="2")
+              tr
+                td(colspan=6) Departamento:
+                td(colspan=2) Municipio:
+                td(colspan=3)
+              tr
+                td(rowspan=2) Código laboratorio
+                td(rowspan=2) Código en campo
+                td(colspan=3) Tipo de muestra
+                td(rowspan=2) Fecha muestreo
+                td(rowspan=2) Sitio de muestreo
+                td(colspan=4) Tipo y cantidad de recipientes
+              tr
+                td Simple
+                td Compuestra
+                td Integrada
+                td Plástico (N° recipientes)
+                td Vidrio (N° recipientes)
+                td Bolsa plástica
+                td Otros
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td           
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr
+                td 
+                  p.p-1
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td    
+                td
+              tr 
+                td(rowspan=2) ¿Refrigerada?
+                td SI
+                td(rowspan=2)(colspan=4) Responsable
+                td(rowspan=2) Total
+                td(rowspan=2)
+                td(rowspan=2)
+                td(rowspan=2)
+                td(rowspan=2)
+              tr
+                td NO
     Separador
     .row
       .col-xl-12       
@@ -667,7 +668,7 @@
         P El embalaje es un proceso crucial para asegurar la protección y preservación adecuada de las muestras recolectadas en el campo. Los tipos de embalaje pueden variar según el tipo de muestra y su uso posterior en el laboratorio. A continuación, se describen algunos tipos comunes de embalaje:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-4
+      .col-md-4.mb-4
         figure
           img(src='@/assets/curso/temas/tema3/img24.png', alt='Imagen decorativa') 
       .col-lg-8
